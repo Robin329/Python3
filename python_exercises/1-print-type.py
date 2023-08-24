@@ -1,5 +1,5 @@
-# Introduction
-# Day 1 - 30DaysOfPython Challenge
+import sys
+
 
 def main():
     print(2 + 3)  # addition(+)
@@ -22,6 +22,17 @@ def main():
     print(type((9.8, 3.14, 2.7)))  # Tuple
     print(type(3 / 2))
 
+def print_version():
+    print(sys.version)
+    print(sys.version_info)
+    print("Platform: %s"%sys.platform)
+
+def print_test():
+    str1 = "world"
+    str2 = "..."
+    print("-- hello ",str1," ", str2, " --")
 
 if __name__ == '__main__':
     main()
+    print_version()
+    print_test()
