@@ -1,5 +1,6 @@
-[submodule ""]
-	path = 
+```
+[submodule "python-mini-projects"]
+	path = reference/python-mini-projects
 	url = https://github.com/Robin329/python-mini-projects.git
 [submodule "reference/Python-100-Days"]
 	path = reference/Python-100-Days
@@ -19,3 +20,4 @@
 [submodule "reference/dpcd_parse"]
 	path = reference/dpcd_parse
 	url = https://github.com/Robin329/dpcd_parser.git
+```
