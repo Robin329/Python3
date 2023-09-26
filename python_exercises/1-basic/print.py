@@ -24,6 +24,28 @@ def main():
     print(type({9.8, 3.14, 2.7}))  # Set
     print(type((9.8, 3.14, 2.7)))  # Tuple
     print(type(3 / 2))
+    print('Age: %s. Gender: %s' % (25, True))
+    print('growth rate: %d %%' % 7)
+    print('Hello, {0}, 成绩提升了 {1:.1f}%'.format('小明', 17.125))
+    r = 2.5
+    s = 3.14 * r ** 2
+    print("s:", s)
+    print("A:", ord('A'))
+    print(ord('中'))
+    print(chr(66))
+    print(chr(25991))
+    a = b'ABC'
+    b = 'ABC'.encode('ascii')
+    c = '中文'.encode('utf-8')
+    d = 0
+    # d = '中文'.encode('ascii') # error
+    print(a)
+    print(b)
+    print(c)
+    print(d)
+    print(len('中文'.encode('utf-8')))
+    print(len(b'\xe4\xb8\xad\xe6\x96\x87'))
+    print(len(b'ABC'))
 
 
 def print_version():
