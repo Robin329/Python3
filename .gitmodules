@@ -1,0 +1,15 @@
+[submodule "reference/awesome-python"]
+	path = reference/awesome-python
+	url = https://github.com/vinta/awesome-python.git
+[submodule "reference/python3-cookbook"]
+	path = reference/python3-cookbook
+	url = https://github.com/yidao620c/python3-cookbook.git
+[submodule "reference/Python"]
+	path = reference/Python
+	url = https://github.com/Robin329/Python.git
+[submodule "reference/learn-python3"]
+	path = reference/learn-python3
+	url = https://github.com/michaelliao/learn-python3.git
+[submodule "reference/30-Days-Of-Python"]
+	path = reference/30-Days-Of-Python
+	url = https://github.com/Asabeneh/30-Days-Of-Python.git

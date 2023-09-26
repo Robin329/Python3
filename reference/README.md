@@ -20,4 +20,7 @@
 [submodule "reference/dpcd_parse"]
 	path = reference/dpcd_parse
 	url = https://github.com/Robin329/dpcd_parser.git
+[submodule "reference/learn-python3"]
+	path = reference/learn-python3
+	url = https://github.com/michaelliao/learn-python3.git
 ```
